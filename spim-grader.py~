@@ -67,7 +67,7 @@ def generate_filename(submission, sample):
         ID = line[10:].strip()
         f.close()
     except:
-        ID = submission
+        rcs = submission
     return ID + '__' + sample
 
 def main():
