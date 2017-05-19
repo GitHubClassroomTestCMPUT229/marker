@@ -29,3 +29,7 @@
 
 # Hurdles
 * To come
+
+# NOTES
+* ID for student should be github team IDs.  
+* Generate csv from team_defs.json
