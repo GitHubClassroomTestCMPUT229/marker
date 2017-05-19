@@ -74,7 +74,7 @@ def compare(results, expectations):
     diag.close()
 
 def generate_filename(submission, sample):
-    #extract RCS id from submission title
+    # TODO: ID should be the students' team_name
     try:
         ID = ""
         f = open("./submissions/{}".format(submission), "r")
